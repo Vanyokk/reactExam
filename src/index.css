@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+
+ul, li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-family: 'Montserrat',sans-serif;
+}
+main h2{
+  text-align: center!important;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+main h2 {
+  margin: 50px 0;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+main .card-button .button {
+  width: 200px;
+  font-size: 18px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #333;
+}
+
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 128px;
+
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.subscriptions {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 96px;
+}
+.SingleProduct{
+  width: 40%;
+  margin: 0!important;
+}
+.singleProductPage{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+
+}
+.filtered {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  gap: 24px;
+}

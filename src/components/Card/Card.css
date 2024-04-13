@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 24px;
+
+    background-color: #fff;
+    padding: 40px 100px;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-image{
+    max-width: 200px;
+    height: 200px;
+    overflow:hidden ;
+}
+.card-image img{
+    object-fit: contain;
+}
+.card-favorites {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
